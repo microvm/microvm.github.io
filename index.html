@@ -27,6 +27,15 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="https://github.com/microvm/microvm-spec/wiki"><b>µVM Specification (v2)</b></a>: canonical information</li>
+            <li><a href="https://github.com/microvm/microvm-refimpl2"><b>µVM Reference Implementation (v2)</b></a>: a runnable µVM written in Scala</li>
+            <li><a href="https://microvm-tutorial.readthedocs.org/en/latest/"><b>µVM Tutorial (current)</b></a>: step-by-step guides</li>
+            <li><a href="https://github.com/microvm/microvm-meta/issues"><b>High-level Issue Tracker</b></a>: general discussions and questions not specific to any sub-project</li>
+            <li><a href="https://github.com/microvm"><b>MicroVM Project on GitHub</b></a></li>
+        </ul>
+        <h3>Overview</h3>
         <p>A large fraction of today’s software is written in <em>managed languages</em>. These languages increase software productivity by offering rich abstractions for managing memory, executing code concurrently, and hiding the complexity of modern hardware. Examples include JavaScript, PHP, Objective-C, Java, C#, Python, and Ruby. These languages are economically important. Unfortunately, most of these languages are inefficient, imposing overheads as large as a factor of fifty compared to orthodox language choices such as C.</p>
 
 <p>The project will define, develop, evaluate, and refine the essential components of a new foundation layer for managed language implementation. In doing so, it will address a key source of systemic inefficiency, by pioneering the <em>micro virtual machine</em> (μVM) as an efficient high-performance substrate for managed language implementation. The relationship between a μVM and existing managed language implementations is analogous to the one between an operating system micro kernel and monolithic operating systems such as Linux. A μVM captures the insight that there exists a well-defined foundation common to most modern languages that can take responsibility for fundamental abstractions over hardware, concurrency, and memory. By isolating and exposing this substrate, a μVM embodies state-of-the-art base technology available to language implementers while isolating them from the pernicious complexities of these abstractions, freeing them to focus on all-important language-specific optimizations. This project will enable more efficient software and a distinctly sharper focus for language implementation research and development.</p>
