@@ -1,66 +1,96 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="MicroVM : The Micro Virtual Machine Project">
+<head>
+<meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="description" content="The Micro Virtual Machine Project">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>MicroVM</title>
-  </head>
+<title>The Micro Virtual Machine Project</title>
+</head>
 
-  <body>
+<body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">          
-          <a id="forkme_banner" href="https://github.com/microvm">View on GitHub</a>
-          <h1 id="project_title">MicroVM <img src="images/macadamia.jpg"
-          width="40%" alt="Macadamia" align="right"></h1>
-          <h2 id="project_tagline">The Micro Virtual Machine Project</h2>
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+    <header class="inner">          
+        <a id="forkme_banner" href="https://github.com/microvm">View on GitHub</a>
+        <h1 id="project_title">Micro Virtual Machine<img src="images/macadamia.jpg"
+            width="40%" alt="Macadamia" align="right"></h1>
+        <h2 id="project_tagline">A Solid Foundation for Language Development</h2>
 
-        </header>
-    </div>
+    </header>
+</div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
         <h3>Useful Links</h3>
+        <p>We coined the concept of <em>micro virtual machines</em> for the
+        developement of managed languages.</p>
+        <p>"Mu" is the name of our specific micro virtual machine. This project
+        has a specification and a reference implementation which are publicly
+        available:</p>
         <ul>
-            <li><a href="https://github.com/microvm/microvm-spec/wiki"><b>µVM Specification (v2)</b></a>: canonical information</li>
-            <li><a href="https://github.com/microvm/microvm-refimpl2"><b>µVM Reference Implementation (v2)</b></a>: a runnable µVM written in Scala</li>
-            <li><a href="https://microvm-tutorial.readthedocs.org/en/latest/"><b>µVM Tutorial (current)</b></a>: step-by-step guides</li>
+            <li><a href="https://github.com/microvm/microvm-spec/wiki"><b>Mu Specification (v2)</b></a>: canonical information</li>
+            <li><a href="https://github.com/microvm/microvm-refimpl2"><b>Mu Reference Implementation (v2)</b></a>: an implementation of the Mu spec in Scala</li>
+            <li><a
+                href="https://microvm-tutorial.readthedocs.org/en/latest/"><b>Mu Tutorial (current)</b></a>: a step-by-step guide</li>
+            <li><a href="https://github.com/microvm"><b>The Micro Virtual Machine Project on GitHub</b></a>: this includes many sub-projects</li>
             <li><a href="https://github.com/microvm/microvm-meta/issues"><b>High-level Issue Tracker</b></a>: general discussions and questions not specific to any sub-project</li>
-            <li><a href="https://github.com/microvm"><b>MicroVM Project on GitHub</b></a></li>
         </ul>
         <h3>Overview</h3>
-        <p>A large fraction of today’s software is written in <em>managed languages</em>. These languages increase software productivity by offering rich abstractions for managing memory, executing code concurrently, and hiding the complexity of modern hardware. Examples include JavaScript, PHP, Objective-C, Java, C#, Python, and Ruby. These languages are economically important. Unfortunately, most of these languages are inefficient, imposing overheads as large as a factor of fifty compared to orthodox language choices such as C.</p>
+        <p>A large fraction of today’s software is written in <em>managed
+            languages</em>. These languages increase software productivity by
+        offering rich abstractions for managing memory, executing code
+        concurrently, and hiding the complexity of modern hardware. Examples
+        include JavaScript, PHP, Objective-C, Java, C#, Python, and Ruby. These
+        languages are economically important. Unfortunately, most of these
+        languages are inefficient, imposing overheads as large as a factor of
+        fifty compared to orthodox language choices such as C.</p>
 
-<p>The project will define, develop, evaluate, and refine the essential components of a new foundation layer for managed language implementation. In doing so, it will address a key source of systemic inefficiency, by pioneering the <em>micro virtual machine</em> (μVM) as an efficient high-performance substrate for managed language implementation. The relationship between a μVM and existing managed language implementations is analogous to the one between an operating system micro kernel and monolithic operating systems such as Linux. A μVM captures the insight that there exists a well-defined foundation common to most modern languages that can take responsibility for fundamental abstractions over hardware, concurrency, and memory. By isolating and exposing this substrate, a μVM embodies state-of-the-art base technology available to language implementers while isolating them from the pernicious complexities of these abstractions, freeing them to focus on all-important language-specific optimizations. This project will enable more efficient software and a distinctly sharper focus for language implementation research and development.</p>
-      </section>
-    </div>
+        <p>The project will define, develop, evaluate, and refine the essential
+        components of a new foundation layer for managed language
+        implementation. In doing so, it will address a key source of systemic
+        inefficiency, by pioneering <em>micro virtual machines</em> as an
+        efficient high-performance substrate for managed language
+        implementation. The relationship between a micro VM and existing
+        managed language implementations is analogous to the one between an
+        operating system micro kernel and monolithic operating systems such as
+        Linux. A micro VM captures the insight that there exists a well-defined
+        foundation common to most modern languages that can take responsibility
+        for fundamental abstractions over hardware, concurrency, and memory. By
+        isolating and exposing this substrate, a micro VM embodies
+        state-of-the-art base technology available to language implementers
+        while isolating them from the pernicious complexities of these
+        abstractions, freeing them to focus on all-important language-specific
+        optimizations. This project will enable more efficient software and a
+        distinctly sharper focus for language implementation research and
+        development.</p>
+    </section>
+</div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+    <footer class="inner">
         <a href="http://www.nicta.com">
-          <img src="images/NICTA-logo.png" height="90px" alt="NICTA"
-               align="right"></a>
+            <img src="images/NICTA-logo.png" height="90px" alt="NICTA"
+            align="right"></a>
         <a href="http://www.nsf.gov">
-          <img src="images/nsf4.jpg" height="90px" alt="NSF"
-               align="right"></a>
+            <img src="images/nsf4.jpg" height="90px" alt="NSF"
+            align="right"></a>
         <a href="http://www.arc.gov.au">
-          <img src="images/ARC_stacked.png" height="90px" alt="NSF"
-               align="right"></a>
+            <img src="images/ARC_stacked.png" height="90px" alt="NSF"
+            align="right"></a>
         <p>Supported by: the Australian Research Council's Discovery Projects
         funding scheme (project number DP140103878), the National Science
         Foundation (grant numbers CCF-1408896 and CCF-1409284), and NICTA.</p>
-      </footer>
-    </div>
+    </footer>
+</div>
 
-    
 
-  </body>
+
+</body>
 </html>
