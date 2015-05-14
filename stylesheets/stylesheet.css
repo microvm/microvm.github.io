@@ -421,3 +421,18 @@ Small Device Styles
   }
 
 }
+
+/* Bibliography */
+
+.bib-author {
+}
+
+.bib-title {
+  font-weight: bold;
+}
+
+.bib-source {
+  font-style: italic;
+}
+
+
